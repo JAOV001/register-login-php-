@@ -1,0 +1,312 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local TWOHUB = Instance.new("ScreenGui")
+local FrameTWO = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextNameHub = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local Hub = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Framehubn = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Main = Instance.new("TextButton")
+local Hu = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local SwitchButton = Instance.new("Frame")
+local Bar = Instance.new("Frame")
+local Circle = Instance.new("Frame")
+local Button = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local Textframe = Instance.new("TextLabel")
+local TextNameHub_2 = Instance.new("TextLabel")
+local NameButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local XExit = Instance.new("TextButton")
+
+--Properties:
+
+TWOHUB.Name = "TWOHUB"
+TWOHUB.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TWOHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+FrameTWO.Name = "FrameTWO"
+FrameTWO.Parent = TWOHUB
+FrameTWO.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FrameTWO.Position = UDim2.new(0.297577858, 0, 0.0521844663, 0)
+FrameTWO.Size = UDim2.new(0, 556, 0, 56)
+
+UICorner.Parent = FrameTWO
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(191, 0, 0)), ColorSequenceKeypoint.new(0.01, Color3.fromRGB(117, 4, 4)), ColorSequenceKeypoint.new(0.37, Color3.fromRGB(196, 21, 21)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(111, 5, 5)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = FrameTWO
+
+TextNameHub.Name = "TextNameHub"
+TextNameHub.Parent = FrameTWO
+TextNameHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextNameHub.BackgroundTransparency = 1.000
+TextNameHub.Position = UDim2.new(0.0170023143, 0, 0.154819697, 0)
+TextNameHub.Size = UDim2.new(0, 115, 0, 37)
+TextNameHub.Font = Enum.Font.Fondamento
+TextNameHub.Text = "Two HUB"
+TextNameHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextNameHub.TextSize = 29.000
+
+ImageButton.Parent = TWOHUB
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.Position = UDim2.new(0.615916908, 0, 0.0618932098, 0)
+ImageButton.Size = UDim2.new(0, 54, 0, 39)
+ImageButton.Image = "http://www.roblox.com/asset/?id=10528567042"
+
+Hub.Name = "Hub"
+Hub.Parent = TWOHUB
+Hub.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Hub.Position = UDim2.new(0.297577858, 0, 0.23058252, 0)
+Hub.Size = UDim2.new(0, 556, 0, 416)
+Hub.Visible = false
+
+UICorner_2.Parent = Hub
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(35, 35, 35)), ColorSequenceKeypoint.new(0.06, Color3.fromRGB(69, 69, 69)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(143, 143, 143))}
+UIGradient_2.Parent = Hub
+
+Framehubn.Name = "Framehubn"
+Framehubn.Parent = Hub
+Framehubn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Framehubn.Size = UDim2.new(0, 109, 0, 416)
+
+UICorner_3.Parent = Framehubn
+
+Main.Name = "Main"
+Main.Parent = Hub
+Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.Position = UDim2.new(0.0134051749, 0, 0.123249307, 0)
+Main.Size = UDim2.new(0, 93, 0, 25)
+Main.Font = Enum.Font.Fondamento
+Main.Text = "Main"
+Main.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main.TextSize = 25.000
+Main.TextStrokeTransparency = 0.000
+
+Hu.Name = "Hu"
+Hu.Parent = Hub
+Hu.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+Hu.BorderSizePixel = 0
+Hu.Position = UDim2.new(0.21043165, 0, 0.103641436, 0)
+Hu.Size = UDim2.new(0, 421, 0, 37)
+
+UICorner_4.Parent = Hu
+
+TextLabel.Parent = Hu
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 90, 0, 39)
+TextLabel.Font = Enum.Font.Fondamento
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 37.000
+
+SwitchButton.Name = "SwitchButton"
+SwitchButton.Parent = Hub
+SwitchButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SwitchButton.BackgroundTransparency = 1.000
+SwitchButton.Position = UDim2.new(0.573741019, 0, 0.577030838, 0)
+SwitchButton.Size = UDim2.new(0, 100, 0, 31)
+
+Bar.Name = "Bar"
+Bar.Parent = SwitchButton
+Bar.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Bar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(1.4000001, 0, -6, 0)
+Bar.Size = UDim2.new(0, 54, 0, 18)
+
+Circle.Name = "Circle"
+Circle.Parent = Bar
+Circle.AnchorPoint = Vector2.new(0, 0.5)
+Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle.BorderSizePixel = 0
+Circle.Position = UDim2.new(-0.00430410868, 0, 0.541666687, 0)
+Circle.Size = UDim2.new(0.474615514, 0, 0.916666746, 0)
+
+Button.Name = "Button"
+Button.Parent = Circle
+Button.AnchorPoint = Vector2.new(0.5, 0.5)
+Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button.BackgroundTransparency = 1.000
+Button.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button.Size = UDim2.new(1, 0, 1, 0)
+Button.ZIndex = 2
+
+UICorner_5.Parent = Circle
+
+UICorner_6.Parent = Bar
+
+Textframe.Name = "Textframe"
+Textframe.Parent = Hub
+Textframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Textframe.BackgroundTransparency = 1.000
+Textframe.Position = UDim2.new(0.209448293, 0, 0.0196078438, 0)
+Textframe.Size = UDim2.new(0, 96, 0, 30)
+Textframe.Font = Enum.Font.Fondamento
+Textframe.Text = "AutoFrame"
+Textframe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Textframe.TextSize = 25.000
+
+TextNameHub_2.Name = "TextNameHub"
+TextNameHub_2.Parent = Hub
+TextNameHub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextNameHub_2.BackgroundTransparency = 1.000
+TextNameHub_2.Size = UDim2.new(0, 109, 0, 47)
+TextNameHub_2.Font = Enum.Font.Fondamento
+TextNameHub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextNameHub_2.TextSize = 29.000
+
+NameButton.Name = "NameButton"
+NameButton.Parent = Hub
+NameButton.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+NameButton.Position = UDim2.new(0.21043165, 0, 0.237980768, 0)
+NameButton.Size = UDim2.new(0, 421, 0, 37)
+NameButton.Font = Enum.Font.Fondamento
+NameButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameButton.TextSize = 49.000
+
+UICorner_7.Parent = NameButton
+
+XExit.Name = "XExit"
+XExit.Parent = Hub
+XExit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XExit.BackgroundTransparency = 1.000
+XExit.Position = UDim2.new(0.902877569, 0, 0, 0)
+XExit.Size = UDim2.new(0, 53, 0, 38)
+XExit.Font = Enum.Font.Fondamento
+XExit.Text = "X"
+XExit.TextColor3 = Color3.fromRGB(255, 255, 255)
+XExit.TextSize = 49.000
+
+-- Scripts:
+
+local function XSPARYA_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Hub.Visible = true
+	end)
+	
+end
+coroutine.wrap(XSPARYA_fake_script)()
+local function RYWFQEO_fake_script() -- SwitchButton.MasterScript 
+	local script = Instance.new('LocalScript', SwitchButton)
+
+	local Configurations = {
+		Animation = {
+			Goals = {
+				UnChecked = {
+					Bar = {BackgroundColor3 = Color3.fromRGB(46, 46, 46)};
+					Circle = {BackgroundColor3 = Color3.fromRGB(255, 255, 255), AnchorPoint = Vector2.new(0, 0.5), Position = UDim2.fromScale(0, 0.5)}
+				};
+				Checked = {
+					Bar = {BackgroundColor3 = Color3.fromRGB(12, 35, 35)};
+					Circle = {BackgroundColor3 = Color3.fromRGB(85, 255, 255), AnchorPoint = Vector2.new(1, 0.5), Position = UDim2.fromScale(1, 0.5)}
+				};
+			}
+		};
+	
+		Defaults = {
+			isChecked = false;
+			CooldownTime = 0.25; -- Seconds
+			inCooldown = false;
+			AnimationSpeed = 0.25; -- Seconds
+		}
+	}
+	
+	-- Services
+	local TweenService = game:GetService("TweenService")
+	
+	
+	-- Instance Variables
+	local SwitchButton_Frame = if script.Parent.Name == "SwitchButton" then script.Parent else nil
+	local Bar
+	local Circle
+	local Button
+	
+	-- TweenInfo
+	local SwitchAnimateInfo = TweenInfo.new(Configurations.Defaults.AnimationSpeed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+	
+	if SwitchButton_Frame then
+		Bar = SwitchButton_Frame:FindFirstChild("Bar")
+		if Bar then
+			Circle = Bar:FindFirstChild("Circle")
+			if Circle then
+				Button = Circle:FindFirstChild("Button")
+				if Button then
+					if Button:IsA("GuiButton") then
+						
+						Button.MouseButton1Click:Connect(function()
+							if Configurations.Defaults.inCooldown == false then
+								Configurations.Defaults.inCooldown = true
+								
+								Configurations.Defaults.isChecked = not Configurations.Defaults.isChecked
+								
+								if Configurations.Defaults.isChecked == true then
+									TweenService:Create(Bar, SwitchAnimateInfo, Configurations.Animation.Goals.Checked.Bar):Play()
+									TweenService:Create(Circle, SwitchAnimateInfo, Configurations.Animation.Goals.Checked.Circle):Play()
+									
+									--[[======================================]]
+									-- Add your logic here (if Enabled/Activated/Checked)
+									
+									
+									--[[======================================]]
+								else
+									TweenService:Create(Bar, SwitchAnimateInfo, Configurations.Animation.Goals.UnChecked.Bar):Play()
+									TweenService:Create(Circle, SwitchAnimateInfo, Configurations.Animation.Goals.UnChecked.Circle):Play()
+									
+									--[[======================================]]
+									-- Add your logic here (if Disabled/Unactivated/Unchecked)
+	
+	
+									--[[======================================]]
+								end
+								
+								task.wait(Configurations.Defaults.CooldownTime)
+								Configurations.Defaults.inCooldown = false
+							end
+						end)
+						
+					else
+						warn("Button is not a GuiButton class.")
+						return
+					end
+				else
+					warn("Button not found.")
+					return
+				end
+			else
+				warn("Circle not found.")
+				return
+			end
+		else
+			warn("Bar not found.")
+			return
+		end
+	else
+		warn("SwitchButton frame not found as a parent.")
+		return
+	end
+end
+coroutine.wrap(RYWFQEO_fake_script)()
+local function XBUE_fake_script() -- XExit.LocalScript 
+	local script = Instance.new('LocalScript', XExit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(XBUE_fake_script)()
